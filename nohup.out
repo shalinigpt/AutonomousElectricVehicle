@@ -1,0 +1,50 @@
+Unable to find image 'message-server:latest' locally
+docker: Error response from daemon: pull access denied for message-server, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.6)
+
+2021-10-30 17:50:25.200  INFO 1 --- [           main] com.example.vehicle.ElectricVehicleApplication         : Starting TestApplication using Java 1.8.0_212 on 6b566d52707c with PID 1 (/test.jar started by root in /)
+2021-10-30 17:50:25.204  INFO 1 --- [           main] com.example.vehicle.ElectricVehicleApplication         : No active profile set, falling back to default profiles: default
+2021-10-30 17:50:27.219  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-30 17:50:27.271  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-30 17:50:27.272  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-30 17:50:27.447  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-30 17:50:27.449  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2154 ms
+2021-10-30 17:50:28.805  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-30 17:50:28.883  INFO 1 --- [           main] com.example.vehicle.ElectricVehicleApplication         : Started TestApplication in 4.397 seconds (JVM running for 5.173)
+2021-10-30 17:51:31.741  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-30 17:51:31.742  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-30 17:51:31.744  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+docker: Error response from daemon: driver failed programming external connectivity on endpoint focused_chaum (6961103526e2c9b60aae39344d499c8690325a4b170f5be96229c8c8c98711a3): Bind for 0.0.0.0:8887 failed: port is already allocated.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.6)
+
+2021-10-30 17:57:11.870  INFO 1 --- [           main] com.example.vehicle.ElectricVehicleApplication         : Starting TestApplication using Java 1.8.0_212 on 1f15b3f63869 with PID 1 (/test.jar started by root in /)
+2021-10-30 17:57:11.875  INFO 1 --- [           main] com.example.vehicle.ElectricVehicleApplication         : No active profile set, falling back to default profiles: default
+2021-10-30 17:57:14.049  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-30 17:57:14.074  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-30 17:57:14.075  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-10-30 17:57:14.197  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-30 17:57:14.198  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2229 ms
+2021-10-30 17:57:14.880  INFO 1 --- [           main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-10-30 17:57:15.275  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-30 17:57:15.277  INFO 1 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-10-30 17:57:15.306  INFO 1 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-10-30 17:57:15.525  INFO 1 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-10-30 17:57:15.662  INFO 1 --- [           main] com.example.vehicle.ElectricVehicleApplication         : Started TestApplication in 4.675 seconds (JVM running for 5.466)
+2021-10-30 17:58:16.774  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-30 17:58:16.774  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-30 17:58:16.776  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
